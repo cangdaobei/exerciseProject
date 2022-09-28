@@ -16,7 +16,7 @@ public class AController {
 
     @PostMapping("testAsync")
     public void testAsync(){
-        aInterface.funTemp1();
+//        aInterface.funTemp2();
     }
 
 
