@@ -2,7 +2,7 @@ server:
   port: 8080
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql:///test?user=root&password=admin&useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT
     username: root
     password: admin
