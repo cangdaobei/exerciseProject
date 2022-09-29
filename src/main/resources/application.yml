@@ -7,4 +7,5 @@ spring:
     username: root
     password: admin
   aop:
+    #false:开启jdk动态代理，true:使用cglib动态代理
     proxy-target-class: false
