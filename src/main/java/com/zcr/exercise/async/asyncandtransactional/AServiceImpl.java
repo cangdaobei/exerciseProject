@@ -1,12 +1,10 @@
 package com.zcr.exercise.async.asyncandtransactional;
 
-import com.zcr.exercise.entity.User;
-import com.zcr.exercise.mapper.UserMapper;
-import lombok.SneakyThrows;
+import com.zcr.exercise.common.entity.User;
+import com.zcr.exercise.common.entity.mapper.UserMapper;
 import org.springframework.aop.framework.AopContext;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 
