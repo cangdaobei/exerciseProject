@@ -1,7 +1,7 @@
 package com.zcr.exercise.async.asyncandtransactional;
 
 import com.zcr.exercise.common.entity.User;
-import com.zcr.exercise.common.entity.mapper.UserMapper;
+import com.zcr.exercise.common.mapper.UserMapper;
 import org.springframework.aop.framework.AopContext;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
